@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Mallanna&display=swap');
-
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mallanna&display=swap');
+h1,h2,h3,h4,h5,h6{
     font-family: 'Mallanna', sans-serif;
 }
+p{
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+}
 nav{
+    background: #054557;
+}
+.bg-green-0{
     background: #054557;
 }
