@@ -28,7 +28,13 @@ formulario.addEventListener('submit', (event) => {
         } else {
             window.open(urlDesktop + mensaje, '_blank')
         }
-        buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
+        buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Mensaje Enviado'
         buttonSubmit.disabled = false
     }, 300);
 });
+
+
+function toggleNavbar(collapseID) {
+  document.getElementById(collapseID).classList.toggle("hidden");
+  document.getElementById(collapseID).classList.toggle("block");
+}
