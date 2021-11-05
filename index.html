@@ -51,7 +51,7 @@
         <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
           <li class="flex items-center">
             <a class="lg:text-white lg:hover:text-yellow-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="/"><span class=" inline-block ml-2">Inicio</span></a>
+              href="#inicio"><span class=" inline-block ml-2">Inicio</span></a>
           </li>
           <li class="flex items-center">
             <a class="lg:text-white lg:hover:text-yellow-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
@@ -74,7 +74,7 @@
 
   <!-- component -->
   <div class="bg-no-repeat bg-cover bg-center relative bg-fixed"
-    style="background-image: url(assets/teresina\ hita.jpg);">
+    style="background-image: url(assets/teresina\ hita.jpg);" id="inicio">
     <div class="absolute bg-gradient-to-b from-yellow-600 to-yellow-700 opacity-75 inset-0 z-0"></div>
     <div class="min-h-screen sm:flex sm:flex-row mx-0 justify-center ">
       <div class="flex-col flex  self-center p-10 sm:max-w-5xl xl:max-w-2xl  z-10">
@@ -207,10 +207,13 @@
   </div>
   <!-- servicios -->
   <div class="overflow-hidden" id="servicios">
-    <h2 class="text-center text-4xl mt-8">Servicios</h2>
-    <div class="bg-green-0 h-1 w-40 mt-2 mx-auto"></div>
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700" data-aos-delay="10">
+
+      <h2 class="text-center text-4xl mt-8" >Servicios</h2>
+      <div class="bg-green-0 h-1 w-40 mt-2 mx-auto"></div>
+    </div>
     <div class="flex flex-wrap items-center my-16">
-      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto">
+      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto" data-aos="fade-right" data-aos-delay="10" data-aos-duration="1000">
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           Medicina Tradicional China
         </h3>
@@ -231,7 +234,7 @@
           enfermedades.
         </p>
       </div>
-      <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+      <div class="w-full md:w-5/12 px-4 mr-auto ml-auto" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
         <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-green-600">
           <img alt="..." src="assets/china.jpg" class="w-full align-middle rounded-lg" />
 
@@ -240,20 +243,20 @@
     </div>
 
     <div class="flex md:flex-wrap flex-wrap-reverse items-center my-16 bg-gray-50 pt-4">
-      <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+      <div class="w-full md:w-4/12 px-4 mr-auto ml-auto" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
         <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-green-600">
           <img alt="..." src="assets/biomagnetismo.webp" class="w-full align-middle rounded-lg" />
 
         </div>
       </div>
-      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto">
+      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           Biomagnetismo Médico Integral
         </h3>
         <span class="text-sm font-light text-gray-400">“La vida no es posible sin campos electromagnéticos, y la salud
           óptima no es posible si los campos electromagnéticos están desequilibrados durante largos períodos de tiempo.
           La energía magnética es la energía de la naturaleza en equilibrio“.</span>
-        <p class="text-sm font-light text-gray-500 text-right">Richard Broeringmeyer</p>
+        <p class="text-sm font-light text-gray-500 text-right">-Richard Broeringmeyer</p>
         <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
           El doctor Isaac Goiz Durán sostiene que a través del biomagnetismo médico se puede diagnosticar y dar un
           tratamiento terapéutico a cualquier tipo de enfermedad patológica, toda vez que la curación de las afecciones
@@ -264,7 +267,7 @@
 
     </div>
     <div class="flex flex-wrap md:flex-wrap-reverse items-center my-16">
-      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto">
+      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           Psicoterapias Humanistas
         </h3>
@@ -279,16 +282,15 @@
           <li>Autoestima</li>
         </ol>
       </div>
-      <div class="w-full md:w-4/12 px-4 mx-auto">
+      <div class="w-full md:w-4/12 px-4 mx-auto" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
         <div class="relative flex flex-col min-w-0 break-words bg-white w-3/4 mx-auto  mb-6 shadow-lg rounded-lg bg-green-600">
           <img alt="..." src="assets/well.jpg" class="w-full align-middle rounded-lg" />
 
         </div>
       </div>
     </div>
-    <div class="flex md:flex-wrap flex-wrap-reverse items-center my-16 bg-gray-50 pt-4
-    ">
-      <div class="w-3/4 md:w-4/12 px-4 mr-auto ml-auto">
+    <div class="flex md:flex-wrap flex-wrap-reverse items-center my-16 bg-gray-50 pt-4">
+      <div class="w-3/4 md:w-4/12 px-4 mr-auto ml-auto" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
         <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-green-600">
           <img alt="..."
             src="https://static.wixstatic.com/media/65ee20_0d6c23ccd7d44887bd0ca249d10c4cd6~mv2.jpeg/v1/crop/x_240,y_0,w_720,h_800,q_85/65ee20_0d6c23ccd7d44887bd0ca249d10c4cd6~mv2.webp"
@@ -296,7 +298,7 @@
 
         </div>
       </div>
-      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto">
+      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           Access Bars Facilitator
         </h3>
@@ -318,7 +320,7 @@
 
     </div>
     <div class="flex flex-wrap items-center my-16">
-      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto">
+      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           Herbolaria y Homeopatía
         </h3>
@@ -326,7 +328,7 @@
 
         </p>
       </div>
-      <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-4">
+      <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-4" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
         <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-green-600">
           <img alt="..." src="assets/herbolaria.jpg" class="w-full align-middle rounded-lg" />
 
@@ -334,15 +336,15 @@
       </div>
     </div>
     <div class="flex md:flex-wrap flex-wrap-reverse items-center my-16 bg-gray-50 pt-4">
-      <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+      <div class="w-full md:w-4/12 px-4 mr-auto ml-auto" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
         <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-green-600">
           <img alt="..."
-            src="https://static.wixstatic.com/media/11062b_bd98f947160d4fe4b371095f53c04f0b~mv2.jpg/v1/fill/w_1440,h_1342,al_c,q_85,usm_0.66_1.00_0.01/11062b_bd98f947160d4fe4b371095f53c04f0b~mv2.webp"
+            src="assets/fitoterapia.webp"
             class="w-full align-middle rounded-lg" />
 
         </div>
       </div>
-      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto ">
+      <div class="w-full md:w-6/12 px-4 mr-auto ml-auto" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           Fitoterapia y Homeopatía
         </h3>
