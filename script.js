@@ -1,3 +1,4 @@
+
 function isMobile() {
     if (sessionStorage.desktop)
         return false;
